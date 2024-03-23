@@ -1,23 +1,23 @@
 [build-system]
-requires = ["setuptools >= 61.0"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-dynamic = ["version"]
 name = "tr34-sdk"
 version = "0.1.0dev1"
-requires-python = ">= 3.9"
-description = "Asynchronous sdk for top-rule34 api"
 authors = [
   { name="StarMan12", email="author@example.com" },
 ]
+description = "Asynchronous sdk for top-rule34 api"
 readme = "README.md"
-license = {file = "LICENSE.txt"}
-keywords = ["rule34", "sdk", "api"]
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ['aiohttp', 'pydantic~=2.6.4']
 
 [project.urls]
-Homepage = "https://example.com"
-Documentation = "https://readthedocs.org"
-Repository = "https://github.com/me/spam.git"
-Issues = "https://github.com/me/spam/issues"
-Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+"Homepage" = "https://github.com/SyperAlexKomp/tr34-sdk"
+"Bug Tracker" = "https://github.com/SyperAlexKomp/tr34-sdk/issues"
