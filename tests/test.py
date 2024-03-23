@@ -2,13 +2,12 @@ import asyncio
 
 from tr34_sdk import TR34Api
 
-api = TR34Api(key="sdfds")
-
-async def get_posts_test():
-    assert await api.search_posts(tags=['ass'], limit=10)
+api = TR34Api()
 
 async def main():
-    await get_posts_test()
+    post_list = await api.search_random_posts(amount=10)
+    for post in post_list:
+        print(post.url)
 
 if __name__ == "__main__":
     asyncio.run(main())

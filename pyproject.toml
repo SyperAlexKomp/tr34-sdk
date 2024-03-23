@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tr34-sdk"
-version = "0.1.0dev1"
+version = "0.1.0.dev2"
 authors = [
   { name="StarMan12", email="author@example.com" },
 ]
@@ -22,4 +22,4 @@ dependencies = ['aiohttp', 'pydantic~=2.6.4']
 Homepage = "https://api.top-rule34.com"
 Repository = "https://github.com/SyperAlexKomp/tr34-sdk.git"
 Issues = "https://github.com/SyperAlexKomp/tr34-sdk/issues"
-Changelog = "https://github.com/SyperAlexKomp/tr34-sdk/spam/blob/master/CHANGELOG.md"
+Changelog = "https://github.com/SyperAlexKomp/tr34-sdk/blob/master/CHANGELOG.md"
