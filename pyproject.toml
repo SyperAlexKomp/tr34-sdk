@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "tr34-sdk"
+version = "0.1.0dev1"
+requires-python = ">= 3.9"
+description = "Asynchronous sdk for top-rule34 api"
+authors = [
+  { name="StarMan12", email="author@example.com" },
+]
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["rule34", "sdk", "api"]
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/me/spam.git"
+Issues = "https://github.com/me/spam/issues"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
