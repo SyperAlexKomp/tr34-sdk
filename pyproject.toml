@@ -19,5 +19,7 @@ classifiers = [
 dependencies = ['aiohttp', 'pydantic~=2.6.4']
 
 [project.urls]
-"Homepage" = "https://github.com/SyperAlexKomp/tr34-sdk"
-"Bug Tracker" = "https://github.com/SyperAlexKomp/tr34-sdk/issues"
+Homepage = "https://api.top-rule34.com"
+Repository = "https://github.com/SyperAlexKomp/tr34-sdk.git"
+Issues = "https://github.com/SyperAlexKomp/tr34-sdk/issues"
+Changelog = "https://github.com/SyperAlexKomp/tr34-sdk/spam/blob/master/CHANGELOG.md"
